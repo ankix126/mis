@@ -9,7 +9,7 @@ define(function(require){
 
     // 页面入口
     o.execute=function(domid,query) {
-        activeTopNav("none");
+        //activeTopNav("none");
         var code = '<p style="font-size:17px;margin:20px 0 30px 0;text-align:center;">'+
                 '欢迎登录'+setting.page_title+'<br><br>'+
                 '<span style="font-size:13px;">请选择左侧菜单进行使用！</span>'+

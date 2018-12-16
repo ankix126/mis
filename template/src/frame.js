@@ -31,7 +31,7 @@ define(function(require){
             new mwt.BorderLayout({
                 render : 'frame-center',
                 items : [
-                    {id:'frame-header',region:'north',height:49},
+                    {id:'frame-header',region:'north',height:45},
                     {id:container,region:'center'}
                 ]
             }).init();
@@ -87,7 +87,9 @@ define(function(require){
                 {id:'frame-logo',region:'north',height:48,
                  html:'<a class="logoa" href="#/">'+
                         '<label>'+
-                            setting.page_title+'</label></a>'},
+                            '<i class="fa fa-medium"></i>&nbsp;&nbsp;'+
+                            '<i>Anki-X-MIS</i>'+
+                        '</label></a>'},
                 // 导航菜单区
                 {id:'frame-nav',region:'center'}
             ]
@@ -160,7 +162,7 @@ define(function(require){
                 {label:'<i class="sicon-home"></i>',cls:'mwt-btn-icon',handler:function(){
                     window.location = "#/";
                 }},
-                {label:'<a href="'+dz.siteurl+'" target="_blank" class="mwt-btn-icon"><i class="sicon-compass"></i></a>',cls:'mwt-btn-icon'},
+                //{label:'<a href="'+dz.siteurl+'" target="_blank" class="mwt-btn-icon"><i class="sicon-compass"></i></a>',cls:'mwt-btn-icon'},
                 '->',
 /*                {label:'<i class="sicon-size-fullscreen"></i>',cls:'mwt-btn-icon',handler:function(){
                     var e=window.location.href;

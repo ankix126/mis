@@ -16,20 +16,13 @@ class model_ankixmis_nav_setting
         $setting = array (
             // 导航菜单
             'navmenu' => array (
-                array('newtab'=>0,'enable'=>1,'text'=>'车辆采购','icon'=>'fa fa-product-hunt','href'=>'#/',
+                array('newtab'=>0,'enable'=>1,'text'=>'首页','icon'=>'sicon-speedometer','href'=>'#/'),
+                array('newtab'=>0,'enable'=>1,'text'=>'用户管理','icon'=>'sicon-users','href'=>'#/user'),
+                array('newtab'=>0,'enable'=>1,'text'=>'模板管理','icon'=>'sicon-layers','href'=>'#/template'),
+                array('newtab'=>0,'enable'=>1,'text'=>'主题管理','icon'=>'fa fa-database','href'=>'#/',
                       'subitems' => array (
-                        array('newtab'=>0,'enable'=>1,'text'=>'预算管理','icon'=>'fa fa-cny','href'=>'#/budget'),
-                        array('newtab'=>0,'enable'=>1,'text'=>'PR单管理','icon'=>'icon icon-reply','href'=>'#/pr'),
-                        array('newtab'=>0,'enable'=>1,'text'=>'PO单管理','icon'=>'icon icon-check','href'=>'#/po'),
-                )), 
-                array('newtab'=>0,'enable'=>1,'text'=>'商品&供应商','icon'=>'sicon-users','href'=>'#/',
-                      'subitems' => array (
-                        array('newtab'=>0,'enable'=>1,'text'=>'商品管理','icon'=>'fa fa-caret-right','href'=>'#/material'),
-                        array('newtab'=>0,'enable'=>1,'text'=>'供应商管理','icon'=>'fa fa-caret-right','href'=>'#/supplier'),
-                )), 
-                array('newtab'=>0,'enable'=>0,'text'=>'库存管理','icon'=>'fa fa-car','href'=>'#/',
-                      'subitems' => array (
-                        array('newtab'=>0,'enable'=>1,'text'=>'车辆管理','icon'=>'fa fa-caret-right','href'=>'#/car'),
+                        array('newtab'=>0,'enable'=>1,'text'=>'主题分类','icon'=>'fa fa-caret-right','href'=>'#/topic_category'),
+                        array('newtab'=>0,'enable'=>1,'text'=>'主题库','icon'=>'fa fa-caret-right','href'=>'#/topic'),
                 )),
             )
         );

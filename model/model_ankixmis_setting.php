@@ -15,7 +15,7 @@ class model_ankixmis_setting
 			// 屏蔽所有discuz页面
 			'disable_discuz' => 0,
 			// 系统名称
-			'page_title' => 'ankixmis',
+			'page_title' => 'Anki-X-MIS',
 			// 版权信息
 			'page_copyright' => 'ankixmis.com 2018',
             // 折叠导航菜单

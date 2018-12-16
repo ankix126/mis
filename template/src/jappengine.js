@@ -9,7 +9,7 @@ define(function(require){
     var urlmap=require('core/urlmap');
 
     var pages = [
-//        require('view/pr/page'), //!< PR单管理
+        require('view/user/page'), //!< 用户管理
 //        require('view/pr/detail/page'), //!< PR单详情
 
         require('view/index/page')  //!< 默认首页
